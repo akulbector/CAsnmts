@@ -1,0 +1,44 @@
+Script started on 2018-11-18 16:53:50-05:00
+bash-4.4$ pwd
+/gaul/s1/student/2018/abector/Courses/CS2211a/Asns/asn4
+bash-4.4$ date
+Sun Nov 18 16:53:52 EST 2018
+bash-4.4$ who am i
+abector  pts/7        2018-11-18 16:53
+bash-4.4$ gcc piCalc.c -o piCalc
+bash-4.4$ ./piCalc
+Precision: 0.01
+Pi = 3.1365926848
+Number of terms = 201
+bash-4.4$ ./piCalc
+Precision: 0.001
+Pi = 3.1410926536
+Number of terms = 2001
+bash-4.4$ ./piCalc
+Precision: 0.0001
+Pi = 3.1415426536
+Number of terms = 20001
+bash-4.4$ ./piCalc
+Precision: 0.00001
+Pi = 3.1415876536
+Number of terms = 200001
+bash-4.4$ ./piCalc
+Precision: 0.000001
+Pi = 3.1415921536
+Number of terms = 2000001
+bash-4.4$ ./piCalcgcc piCalc.c -o piCalc[C[C[C[C[C[C[C[C[C[C[14P./piCalc
+Precision: 0.0000001
+Pi = 3.1415926036
+Number of terms = 20000001
+bash-4.4$ ./piCalc
+Precision: 0.00000001
+Pi = 3.1415926486
+Number of terms = 200000001
+bash-4.4$ ./piCalc
+Precision: 0.000000001
+Pi = 3.1415926531
+Number of terms = 2000000001
+bash-4.4$ exit
+exit
+
+Script done on 2018-11-18 16:55:05-05:00
